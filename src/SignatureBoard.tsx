@@ -21,7 +21,7 @@ import {
   useGesture,
   GestureContext,
 } from '@liuyunjs/hooks/lib/react-native-reanimated/useGesture';
-import useReactCallback from 'react-use-callback';
+import { useReactCallback } from '@liuyunjs/hooks/lib/useReactCallback';
 
 // /**
 //  * 获取控制点坐标

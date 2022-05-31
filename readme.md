@@ -19,6 +19,7 @@ npm install --save rn-signature-board react-native-reanimated react-native-svg r
 ```typescript jsx
 import * as React from 'react';
 import { SafeAreaView, Text, Dimensions, View, Image } from 'react-native';
+// 注意使用全屏必须导入
 import 'react-native-portal-view';
 import { SignatureBoard, SignatureBoardRef } from './library/main';
 
